@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import ChartWrapper from './ChartWrapper';
 
 class App extends React.Component{
     render(){
-        return(
-            <div>Hello World</div>
+        return(<>
+            <div>Hello D3</div>
+            <ChartWrapper />
+            </>
         )
     }
 }
