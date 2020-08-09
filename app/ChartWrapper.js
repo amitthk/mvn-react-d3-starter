@@ -10,7 +10,7 @@ export default class ChartWrapper extends React.Component {
 
     render(){
         return (<>
-        <div ref='chart'>Abracadabra</div>
+        <div ref='chart'></div>
         </>);
     }
 }
