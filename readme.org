@@ -1,0 +1,8 @@
+* maven npm react d3 starter
+
+source profile_npm.sh 
+rm -rf node_modules
+rm -rf target
+mvn clean package
+npm install
+npm run start
